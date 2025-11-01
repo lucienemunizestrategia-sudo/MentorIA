@@ -1,0 +1,52 @@
+{
+  "name": "mentoria-ia",
+  "version": "1.0.0",
+  "description": "Plataforma de consultoria de negócios baseada em Inteligência Artificial",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js",
+    "server:dev": "nodemon server.js",
+    "start": "npm run server",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.1",
+    "vite": "^5.0.8",
+    "tailwindcss": "^3.3.6",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "nodemon": "^3.0.2",
+    "eslint": "^8.54.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "mentoria",
+    "negócios",
+    "inteligência artificial",
+    "groq",
+    "consultoria"
+  ],
+  "author": "Luciene Muniz",
+  "license": "MIT"
+}
